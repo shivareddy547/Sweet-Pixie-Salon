@@ -1,0 +1,26 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Sweet Pixie Salon</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="<%= (request.path == '/' || request.path == '/appointments') ? 'active' : '' %>"><%= link_to "Home", appointments_path %></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="<%= (request.path == '/appointments/new') ? 'active' : '' %>">
+          <%= link_to new_appointment_path do %>
+              Book Appointment
+              <span class="glyphicon glyphicon-calendar"></span>
+          <% end %>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>

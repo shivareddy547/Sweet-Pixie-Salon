@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer_name: MyString
+  customer_age: 1
+  date: 2017-02-18
+  time_slot: MyString
+
+two:
+  customer_name: MyString
+  customer_age: 1
+  date: 2017-02-18
+  time_slot: MyString

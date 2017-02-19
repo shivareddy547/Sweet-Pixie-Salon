@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails barbershop: development" uuid="9d9f980b-14d8-4083-bbb7-65b68dfda65f">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails barbershop: test" uuid="695debb5-a725-4362-a330-60b39c36e2df">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails barbershop: production" uuid="e0dbb17e-6c17-4a84-84dc-46ffd5f0bfcf">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
