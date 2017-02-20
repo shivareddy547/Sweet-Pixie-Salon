@@ -3,7 +3,7 @@ class AppointmentsController < ApplicationController
 
 # List Appointments
   def index
-   @appointments = Appointment.where("appointment_date >= ? AND time_slot >= ?",Date.today, Time.now.hour+1).order('appointment_date asc')
+   @appointments = Appointment.where("appointment_date >= ?",Date.today).order('appointment_date asc')
   end
 
   def new
